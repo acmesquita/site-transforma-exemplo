@@ -1,0 +1,122 @@
+@import url('https://fonts.googleapis.com/css2?family=Alfa+Slab+One&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&display=swap');
+/* @import url('https://fonts.googleapis.com/css2? family= Lobster+Two:ital,wght@0,700;1,400 & display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Yeseva+One&display=swap');
+@import url('https://fonts.googleapis.com/css2? family= Bungee & display=swap'); */
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    text-decoration: none;
+}
+
+body {
+    font-size: 100%;
+    background-image: linear-gradient(to left, #fdda00, #fddf34, #fde34f, #fde765, #fdeb79);
+    font-family: 'Lobster Two', cursiva;
+    font-weight: 400px;
+    width: 100%;
+    
+}
+
+.cabecalho{
+    display:flex;
+    flex-direction: row;
+    align-items: center;
+    justify-content: space-around;
+    padding: 35px;
+    gap: 62px; 
+}
+
+.logo{
+    height: 120px;
+}
+.menu {
+    display: flex;
+    gap: 50px;
+    font-family: 'Alfa Slab One', cursive;
+    font-weight: 400;
+    font-size: 20px;
+}
+
+.conteudo{
+    width: 100%;
+    /* border-top:0.4px solid #d3b301; */
+    
+}
+
+.conteudo-primario{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    width: 80%;
+    font-family: 'Bebas Neue', cursive;
+    font-weight: 400;
+    margin: 0 0 0 280px;
+
+}
+.conteudo-primario-descricao{
+    width: 50%;
+}
+
+.conteudo-primario h1{
+    font-size: 60px;
+    margin-bottom: 15px;
+}
+
+.conteudo-primario h2{
+    font-weight: 700;
+    font-size: 30px;
+
+}
+
+.conteudo-primario img{
+    width: 50%;
+    object-fit: cover;
+    height: 100%;
+    float: right;
+}
+
+.botao-confira{
+    background-color: rgb(214, 52, 3);
+    color: #fff;
+    border-radius: 20px;
+    border: none;
+    margin-top: 30px;
+    width: 180px;
+    height: 60px;
+    box-shadow: #000000;
+    font-family: 'Bungee', cursiva;
+    font-weight: 400px;
+    font-size:19px;
+}
+
+.conteudo-secundario{
+    background: #1a1717;
+    width: 100%;
+
+}
+
+.conteudo-secundario img{
+    width: 100%;
+}
+
+.mapa{
+    display: flex;
+    justify-content: left;
+    align-items: center;
+    background-color: #131212;
+    padding: 30px;
+    width: 100%;
+}
+
+.footer{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    background-color: #000000;
+    color: #FFFFFF;
+    padding: 30px;
+    width: 100%;
+}
