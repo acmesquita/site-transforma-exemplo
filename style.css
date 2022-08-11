@@ -15,13 +15,16 @@
     text-decoration: none;
 }
 
+html {
+    scroll-behavior: smooth;
+}
+
 body {
     font-size: 100%;
     background-image: linear-gradient(to left, #fdda00, #fddf34, #fde34f, #fde765, #fdeb79);
     font-family: 'Lobster Two', cursiva;
     font-weight: 400;
     width: 100%;
-    
 }
 
 .cabecalho {
