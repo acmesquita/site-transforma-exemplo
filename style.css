@@ -32,6 +32,7 @@ body {
 .logo{
     height: 120px;
 }
+
 .menu {
     display: flex;
     gap: 50px;
@@ -53,7 +54,7 @@ body {
     width: 80%;
     font-family: 'Bebas Neue', cursive;
     font-weight: 400;
-    margin: 0 0 0 280px;
+    margin: 0 0 0 14%;
 
 }
 .conteudo-primario-descricao{
