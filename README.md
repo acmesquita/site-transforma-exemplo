@@ -1,6 +1,2 @@
-# site-transforma-exemplo
+# Transforma Vindi
 
-
-# Font
-Lagosta Dois
-https://fonts.google.com/specimen/Lobster+Two
